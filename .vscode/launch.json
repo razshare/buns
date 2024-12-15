@@ -9,7 +9,7 @@
       "internalConsoleOptions": "openOnSessionStart",
       "request": "launch",
       "name": "Debug File",
-      "program": "${file}",
+      "program": "${workspaceFolder}/index.js",
       "cwd": "${workspaceFolder}",
       "stopOnEntry": true,
       "watchMode": true
