@@ -1,4 +1,6 @@
 # Based on https://raw.githubusercontent.com/github/gitignore/main/Node.gitignore
+# Temps
+/tmp
 
 # Binaries
 /bin
@@ -161,7 +163,6 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 
-.vscode
 .vscode-test
 
 # yarn v2

@@ -31,12 +31,12 @@
     "sourceMap": true,
     "types": ["bun-types"],
     "paths": {
-      "$lib/*": ["./$lib/*"]
+      ".lib/*": ["./.lib/*"]
     },
     "importsNotUsedAsValues": "remove",
     "isolatedModules": true,
     "ignoreDeprecations": "5.0"
   },
-  "include": ["./index.js", "./$lib/**/*.js"],
+  "include": ["./index.js", "./.lib/**/*.js"],
   "exclude": ["./node_modules/**"]
 }
