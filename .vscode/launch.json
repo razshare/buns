@@ -11,7 +11,7 @@
       "name": "Debug File",
       "program": "${workspaceFolder}/index.js",
       "cwd": "${workspaceFolder}",
-      "stopOnEntry": true,
+      "stopOnEntry": false,
       "watchMode": true
     }
   ]
