@@ -1,0 +1,15 @@
+{
+  "name": "buns",
+  "module": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "9.17.0",
+    "@types/bun": "latest",
+    "eslint-config-prettier": "9.1.0",
+    "prettier": "3.4.2"
+  },
+  "scripts": {
+    "dev": "bun index.js",
+    "build": "bun build ./index.js --compile --outfile bin/index"
+  }
+}
